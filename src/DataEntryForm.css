@@ -1,0 +1,73 @@
+/* DataEntryForm.css */
+
+.data-entry-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .data-entry-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .data-entry-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .data-entry-form input,
+  .data-entry-form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .data-entry-form .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .data-entry-form .form-row input,
+  .data-entry-form .form-row select {
+    flex: 1;
+  }
+  
+  .data-entry-form button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .data-entry-form button:hover {
+    background-color: darkgreen;
+  }
+  
+  .data-entry-form .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .data-entry-form .checkbox-container input {
+    margin-right: 5px;
+  }
+  
+  .submitted-data {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .submitted-data h3 {
+    margin-top: 0;
+  }
+  
